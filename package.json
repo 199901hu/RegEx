@@ -1,7 +1,8 @@
 {
 	"name": "reg-rule",
+	"publisher": "江望",
 	"displayName": "reg_rule",
-	"description": "",
+	"description": "常用正则表达式",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
@@ -12,84 +13,101 @@
 	"activationEvents": [
 		"*"
 	],
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/199901hu/reg_rule.git"
+    },
 	"main": "./src/extension.js",
 	"contributes": {
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorFocus",
+					"command": "extension.ruleMenu",
+					"group": "navigation"
+				}
+			]
+		},
 		"commands": [
 			{
 				"command": "extension.rule0",
-				"title": "wqjiao: 手机号码(严谨)"
+				"title": "amap: 手机号码(严谨)"
 			},
 			{
 				"command": "extension.rule1",
-				"title": "wqjiao: 手机号码(宽松)"
+				"title": "amap: 手机号码(宽松)"
 			},
 			{
 				"command": "extension.rule2",
-				"title": "wqjiao: 国内座机电话"
+				"title": "amap: 国内座机电话"
 			},
 			{
 				"command": "extension.rule3",
-				"title": "wqjiao: 座机电话(包括港澳台)"
+				"title": "amap: 座机电话(包括港澳台)"
 			},
 			{
 				"command": "extension.rule4",
-				"title": "wqjiao: 电子邮箱"
+				"title": "amap: 电子邮箱"
 			},
 			{
 				"command": "extension.rule5",
-				"title": "wqjiao: 身份证号"
+				"title": "amap: 身份证号"
 			},
 			{
 				"command": "extension.rule6",
-				"title": "wqjiao: 护照(包含香港、澳门)"
+				"title": "amap: 护照(包含香港、澳门)"
 			},
 			{
 				"command": "extension.rule7",
-				"title": "wqjiao: 车牌号(新能源+非新能源)"
+				"title": "amap: 车牌号(新能源+非新能源)"
 			},
 			{
 				"command": "extension.rule8",
-				"title": "wqjiao: 新能源车牌号"
+				"title": "amap: 新能源车牌号"
 			},
 			{
 				"command": "extension.rule9",
-				"title": "wqjiao: 非新能源车牌号"
+				"title": "amap: 非新能源车牌号"
 			},
 			{
 				"command": "extension.rule10",
-				"title": "wqjiao: 车架号"
+				"title": "amap: 车架号"
 			},
 			{
 				"command": "extension.rule11",
-				"title": "wqjiao: 发动机号"
+				"title": "amap: 发动机号"
 			},
 			{
 				"command": "extension.rule12",
-				"title": "wqjiao: 中国邮政编码"
+				"title": "amap: 中国邮政编码"
 			},
 			{
 				"command": "extension.rule13",
-				"title": "wqjiao: 允许字母数字下划线组合"
+				"title": "amap: 允许字母数字下划线组合"
 			},
 			{
 				"command": "extension.rule14",
-				"title": "wqjiao: 汉字"
+				"title": "amap: 汉字"
 			},
 			{
 				"command": "extension.rule15",
-				"title": "wqjiao: 英文"
+				"title": "amap: 英文"
 			},
 			{
 				"command": "extension.rule16",
-				"title": "wqjiao: 数字"
+				"title": "amap: 数字"
 			},
 			{
 				"command": "extension.rule17",
-				"title": "wqjiao: 小数"
+				"title": "amap: 小数"
 			},
 			{
 				"command": "extension.rule18",
-				"title": "wqjiao: 不能包含汉字"
+				"title": "amap: 不能包含汉字"
+			},
+			{
+				"command": "extension.ruleMenu",
+				"title": "pick reg_rule"
 			}
 		]
 	},
