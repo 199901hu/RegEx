@@ -1,0 +1,112 @@
+{
+	"name": "reg-rule",
+	"displayName": "reg_rule",
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.rule0",
+				"title": "wqjiao: 手机号码(严谨)"
+			},
+			{
+				"command": "extension.rule1",
+				"title": "wqjiao: 手机号码(宽松)"
+			},
+			{
+				"command": "extension.rule2",
+				"title": "wqjiao: 国内座机电话"
+			},
+			{
+				"command": "extension.rule3",
+				"title": "wqjiao: 座机电话(包括港澳台)"
+			},
+			{
+				"command": "extension.rule4",
+				"title": "wqjiao: 电子邮箱"
+			},
+			{
+				"command": "extension.rule5",
+				"title": "wqjiao: 身份证号"
+			},
+			{
+				"command": "extension.rule6",
+				"title": "wqjiao: 护照(包含香港、澳门)"
+			},
+			{
+				"command": "extension.rule7",
+				"title": "wqjiao: 车牌号(新能源+非新能源)"
+			},
+			{
+				"command": "extension.rule8",
+				"title": "wqjiao: 新能源车牌号"
+			},
+			{
+				"command": "extension.rule9",
+				"title": "wqjiao: 非新能源车牌号"
+			},
+			{
+				"command": "extension.rule10",
+				"title": "wqjiao: 车架号"
+			},
+			{
+				"command": "extension.rule11",
+				"title": "wqjiao: 发动机号"
+			},
+			{
+				"command": "extension.rule12",
+				"title": "wqjiao: 中国邮政编码"
+			},
+			{
+				"command": "extension.rule13",
+				"title": "wqjiao: 允许字母数字下划线组合"
+			},
+			{
+				"command": "extension.rule14",
+				"title": "wqjiao: 汉字"
+			},
+			{
+				"command": "extension.rule15",
+				"title": "wqjiao: 英文"
+			},
+			{
+				"command": "extension.rule16",
+				"title": "wqjiao: 数字"
+			},
+			{
+				"command": "extension.rule17",
+				"title": "wqjiao: 小数"
+			},
+			{
+				"command": "extension.rule18",
+				"title": "wqjiao: 不能包含汉字"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./src/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.36.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"eslint": "^8.20.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.4",
+		"@vscode/test-electron": "^2.1.5"
+	}
+}
