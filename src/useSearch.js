@@ -3,7 +3,7 @@ const vscode = require('vscode');
 function useSearch(context, REGULARS) {
     REGULARS.forEach(({ title, rule },  index) => {
 		// 注册命令：将命令ID绑定到扩展中的处理程序函数
-		let disposable = vscode.commands.registerCommand(`extension.rule${index}`, () => {
+		let disposable = vscode.commands.registerCommand(`RegEx.rule${index}`, () => {
 			const editor = vscode.window.activeTextEditor;
 
 			if (editor) {

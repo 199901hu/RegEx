@@ -9,7 +9,7 @@ window:ctri+shift+p
 
 
 # 使用方式二
-右键，然后选择"pick reg_rule"  
+右键，然后选择"RegEx"  
 ![image](./asserts/pickReg.png)
 就可以看到全部正则表达式列表，可以选择需要的正则表达式  
 ![image](./asserts/pickReg2.png)

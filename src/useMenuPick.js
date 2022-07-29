@@ -4,7 +4,7 @@ const vscode = require('vscode');
 function useMenuPick(context, REGULARS) {
     
 		// 注册命令：将命令ID绑定到扩展中的处理程序函数
-	let disposable = vscode.commands.registerCommand('extension.ruleMenu', () => {
+	let disposable = vscode.commands.registerCommand('RegEx.ruleMenu', () => {
 		vscode.window.showQuickPick(REGULARS.map(({title,rule,examples}) => {
 			return {
 				label: title,
@@ -13,7 +13,7 @@ function useMenuPick(context, REGULARS) {
 			}
 		}),
 		{
-            placeHolder: '请输入关键词'
+            placeHolder: '请输入关键字'
         }).then(item => {
 			if (!item) return
 			const editor = vscode.window.activeTextEditor;
@@ -27,13 +27,13 @@ function useMenuPick(context, REGULARS) {
 						const range = new vscode.Range(start, end);
 						editBuilder.replace(range, ruleString);
 					});
-				});
+				});/^[^\u4E00-\u9FA5]*$/
                 
 				// 操作成功时，消息窗口提示
-				vscode.window.showInformationMessage(`已插入正则: ${title}`);
+				vscode.window.showInformationMessage(`正则插入成功: ${title}`);
 			} else {
 				// 操作错误时，消息窗口提示
-				vscode.window.showWarningMessage('regular-set: 只有在编辑文本的时候才可以使用!');
+				vscode.window.showWarningMessage('此处不允许使用');
 			}
 				})
 			});
