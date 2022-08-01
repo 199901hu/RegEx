@@ -37,7 +37,6 @@ function useMenuPick(context, REGULARS) {
 			}
 				})
 			});
-			debugger
 				console.log(editor.options);
 
 	context.subscriptions.push(disposable);

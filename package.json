@@ -1,9 +1,9 @@
 {
-	"name": "RegEx",
-	"publisher": "江望",
-	"displayName": "RegEx",
+	"name": "Reg-Ex",
+	"publisher": "jiangwang",
+	"displayName": "Reg-Ex",
 	"description": "常用正则表达式",
-	"version": "0.0.1",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
@@ -32,295 +32,295 @@
 		"commands": [
 			{
 				"command": "RegEx.ruleMenu",
-				"title": "RegEx"
+				"title": "$(rocket) RegEx"
 			},
 			{
 				"command": "RegEx.rule0",
-				"title": "amap: 手机号码(严谨)"
+				"title": "$(rocket) amap: 手机号码(严谨)"
 			},
 			{
 				"command": "RegEx.rule1",
-				"title": "amap: 手机号码(宽松)"
+				"title": "$(rocket) amap: 手机号码(宽松)"
 			},
 			{
 				"command": "RegEx.rule2",
-				"title": "amap: 国内座机电话"
+				"title": "$(rocket) amap: 国内座机电话"
 			},
 			{
 				"command": "RegEx.rule3",
-				"title": "amap: 座机电话(包括港澳台)"
+				"title": "$(rocket) amap: 座机电话(包括港澳台)"
 			},
 			{
 				"command": "RegEx.rule4",
-				"title": "amap: 电子邮箱"
+				"title": "$(rocket) amap: 电子邮箱"
 			},
 			{
 				"command": "RegEx.rule5",
-				"title": "amap: 身份证号"
+				"title": "$(rocket) amap: 身份证号"
 			},
 			{
 				"command": "RegEx.rule6",
-				"title": "amap: 护照(包含香港、澳门)"
+				"title": "$(rocket) amap: 护照(包含香港、澳门)"
 			},
 			{
 				"command": "RegEx.rule7",
-				"title": "amap: 车牌号(新能源+非新能源)"
+				"title": "$(rocket) amap: 车牌号(新能源+非新能源)"
 			},
 			{
 				"command": "RegEx.rule8",
-				"title": "amap: 新能源车牌号"
+				"title": "$(rocket) amap: 新能源车牌号"
 			},
 			{
 				"command": "RegEx.rule9",
-				"title": "amap: 非新能源车牌号"
+				"title": "$(rocket) amap: 非新能源车牌号"
 			},
 			{
 				"command": "RegEx.rule10",
-				"title": "amap: 中国邮政编码"
+				"title": "$(rocket) amap: 中国邮政编码"
 			},
 			{
 				"command": "RegEx.rule11",
-				"title": "amap: 汉字"
+				"title": "$(rocket) amap: 汉字"
 			},
 			{
                 "command": "RegEx.rule12",
-                "title": "amap: 英文"
+                "title": "$(rocket) amap: 英文"
             },
             {
                 "command": "RegEx.rule13",
-                "title": "amap: 小写英文字母组成"
+                "title": "$(rocket) amap: 小写英文字母组成"
             },
             {
                 "command": "RegEx.rule14",
-                "title": "amap: 大写英文字母组成"
+                "title": "$(rocket) amap: 大写英文字母组成"
             },
 			{
 				"command": "RegEx.rule15",
-				"title": "amap: 数字"
+				"title": "$(rocket) amap: 数字"
 			},
 			{
 				"command": "RegEx.rule16",
-				"title": "amap: 小数"
+				"title": "$(rocket) amap: 小数"
 			},
 			{
 				"command": "RegEx.rule17",
-				"title": "amap: 不能包含汉字"
+				"title": "$(rocket) amap: 不能包含汉字"
 			},
 			{
                 "command": "RegEx.rule18",
-                "title": "amap: 火车车次"
+                "title": "$(rocket) amap: 火车车次"
             },
             {
                 "command": "RegEx.rule19",
-                "title": "amap: 必须带端口号的网址(或ip)"
+                "title": "$(rocket) amap: 必须带端口号的网址(或ip)"
             },
             {
                 "command": "RegEx.rule20",
-                "title": "amap: 网址(URL)"
+                "title": "$(rocket) amap: 网址(URL)"
             },
             {
                 "command": "RegEx.rule21",
-                "title": "amap: 迅雷链接"
+                "title": "$(rocket) amap: 迅雷链接"
             },
             {
                 "command": "RegEx.rule22",
-                "title": "amap: ed2k链接(宽松匹配)"
+                "title": "$(rocket) amap: ed2k链接(宽松匹配)"
             },
             {
                 "command": "RegEx.rule23",
-                "title": "amap: 磁力链接(宽松匹配)"
+                "title": "$(rocket) amap: 磁力链接(宽松匹配)"
             },
             {
                 "command": "RegEx.rule24",
-                "title": "amap: 子网掩码(不包含 0.0.0.0)"
+                "title": "$(rocket) amap: 子网掩码(不包含 0.0.0.0)"
             },
             {
                 "command": "RegEx.rule25",
-                "title": "amap: linux\"隐藏文件\"路径"
+                "title": "$(rocket) amap: linux\"隐藏文件\"路径"
             },
             {
                 "command": "RegEx.rule26",
-                "title": "amap: linux文件夹路径"
+                "title": "$(rocket) amap: linux文件夹路径"
             },
             {
                 "command": "RegEx.rule27",
-                "title": "amap: linux文件路径"
+                "title": "$(rocket) amap: linux文件路径"
             },
             {
                 "command": "RegEx.rule28",
-                "title": "amap: window\"文件夹\"路径"
+                "title": "$(rocket) amap: window\"文件夹\"路径"
             },
             {
                 "command": "RegEx.rule29",
-                "title": "amap: window下\"文件\"路径"
+                "title": "$(rocket) amap: window下\"文件\"路径"
             },
             {
                 "command": "RegEx.rule30",
-                "title": "amap: 版本号(version)格式必须为X.Y.Z"
+                "title": "$(rocket) amap: 版本号(version)格式必须为X.Y.Z"
             },
             {
                 "command": "RegEx.rule31",
-                "title": "amap: 视频(video)链接地址(视频格式可按需增删)"
+                "title": "$(rocket) amap: 视频(video)链接地址(视频格式可按需增删)"
             },
             {
                 "command": "RegEx.rule32",
-                "title": "amap: 图片(image)链接地址(图片格式可按需增删)"
+                "title": "$(rocket) amap: 图片(image)链接地址(图片格式可按需增删)"
             },
             {
                 "command": "RegEx.rule33",
-                "title": "amap: 24小时制时间(HH:mm:ss)"
+                "title": "$(rocket) amap: 24小时制时间(HH:mm:ss)"
             },
             {
                 "command": "RegEx.rule34",
-                "title": "amap: 12小时制时间(hh:mm:ss)"
+                "title": "$(rocket) amap: 12小时制时间(hh:mm:ss)"
             },
             {
                 "command": "RegEx.rule35",
-                "title": "amap: base64格式"
+                "title": "$(rocket) amap: base64格式"
             },
             {
                 "command": "RegEx.rule36",
-                "title": "amap: 银行卡号(10到30位)"
+                "title": "$(rocket) amap: 银行卡号(10到30位)"
             },
             {
                 "command": "RegEx.rule37",
-                "title": "amap: 车牌号(新能源+非新能源)"
+                "title": "$(rocket) amap: 车牌号(新能源+非新能源)"
             },
             {
                 "command": "RegEx.rule38",
-                "title": "amap: 日期(宽松)"
+                "title": "$(rocket) amap: 日期(宽松)"
             },
             {
                 "command": "RegEx.rule39",
-                "title": "amap: 日期(严谨, 支持闰年判断)"
+                "title": "$(rocket) amap: 日期(严谨, 支持闰年判断)"
             },
             {
                 "command": "RegEx.rule40",
-                "title": "amap: 中国省"
+                "title": "$(rocket) amap: 中国省"
             },
             {
                 "command": "RegEx.rule41",
-                "title": "amap: 可以被moment转化成功的时间 YYYYMMDD HH:mm:ss"
+                "title": "$(rocket) amap: 可以被moment转化成功的时间 YYYYMMDD HH:mm:ss"
             },
             {
                 "command": "RegEx.rule42",
-                "title": "amap: 身份证号(1代,15位数字)"
+                "title": "$(rocket) amap: 身份证号(1代,15位数字)"
             },
             {
                 "command": "RegEx.rule43",
-                "title": "amap: 身份证号(2代,18位数字),最后一位是校验位,可能为数字或字符X"
+                "title": "$(rocket) amap: 身份证号(2代,18位数字),最后一位是校验位,可能为数字或字符X"
             },
             {
                 "command": "RegEx.rule44",
-                "title": "amap: 身份证号, 支持1/2代(15位/18位数字)"
+                "title": "$(rocket) amap: 身份证号, 支持1/2代(15位/18位数字)"
             },
             {
                 "command": "RegEx.rule45",
-                "title": "amap: 帐号是否合法(字母开头,允许5-16字节,允许字母数字下划线组合"
+                "title": "$(rocket) amap: 帐号是否合法(字母开头,允许5-16字节,允许字母数字下划线组合"
             },
             {
                 "command": "RegEx.rule46",
-                "title": "amap: html标签(宽松匹配)"
+                "title": "$(rocket) amap: html标签(宽松匹配)"
             },
             {
                 "command": "RegEx.rule47",
-                "title": "amap: 匹配中文汉字和中文标点"
+                "title": "$(rocket) amap: 匹配中文汉字和中文标点"
             },
             {
                 "command": "RegEx.rule48",
-                "title": "amap: qq号格式正确"
+                "title": "$(rocket) amap: qq号格式正确"
             },
             {
                 "command": "RegEx.rule49",
-                "title": "amap: 数字和字母组成"
+                "title": "$(rocket) amap: 数字和字母组成"
             },
             {
                 "command": "RegEx.rule50",
-                "title": "amap: 密码强度校验,最少6位,包括至少1个大写字母,1个小写字母,1个数字,1个特殊字符"
+                "title": "$(rocket) amap: 密码强度校验,最少6位,包括至少1个大写字母,1个小写字母,1个数字,1个特殊字符"
             },
             {
                 "command": "RegEx.rule51",
-                "title": "amap: 用户名校验,4到16位(字母,数字,下划线,减号)"
+                "title": "$(rocket) amap: 用户名校验,4到16位(字母,数字,下划线,减号)"
             },
             {
                 "command": "RegEx.rule52",
-                "title": "amap: ip-v4[:端口]"
+                "title": "$(rocket) amap: ip-v4[:端口]"
             },
             {
                 "command": "RegEx.rule53",
-                "title": "amap: ip-v6[:端口]"
+                "title": "$(rocket) amap: ip-v6[:端口]"
             },
             {
                 "command": "RegEx.rule54",
-                "title": "amap: 16进制颜色"
+                "title": "$(rocket) amap: 16进制颜色"
             },
             {
                 "command": "RegEx.rule55",
-                "title": "amap: 微信号(wx),6至20位,以字母开头,字母,数字,减号,下划线"
+                "title": "$(rocket) amap: 微信号(wx),6至20位,以字母开头,字母,数字,减号,下划线"
             },
             {
                 "command": "RegEx.rule56",
-                "title": "amap: 中文和数字"
+                "title": "$(rocket) amap: 中文和数字"
             },
             {
                 "command": "RegEx.rule57",
-                "title": "amap: 不能包含字母"
+                "title": "$(rocket) amap: 不能包含字母"
             },
             {
                 "command": "RegEx.rule58",
-                "title": "amap: mac地址"
+                "title": "$(rocket) amap: mac地址"
             },
             {
                 "command": "RegEx.rule59",
-                "title": "amap: 匹配连续重复的字符"
+                "title": "$(rocket) amap: 匹配连续重复的字符"
             },
             {
                 "command": "RegEx.rule60",
-                "title": "amap: 数字和英文字母组成,并且同时含有数字和英文字母"
+                "title": "$(rocket) amap: 数字和英文字母组成,并且同时含有数字和英文字母"
             },
             {
                 "command": "RegEx.rule61",
-                "title": "amap: 香港身份证 "
+                "title": "$(rocket) amap: 香港身份证 "
             },
             {
                 "command": "RegEx.rule62",
-                "title": "amap: 澳门身份证 "
+                "title": "$(rocket) amap: 澳门身份证 "
             },
             {
                 "command": "RegEx.rule63",
-                "title": "amap: 台湾身份证 "
+                "title": "$(rocket) amap: 台湾身份证 "
             },
             {
                 "command": "RegEx.rule64",
-                "title": "amap: 大写字母,小写字母,数字,特殊符号 `@#$%^&*`~()-+=` 中任意3项密码"
+                "title": "$(rocket) amap: 大写字母,小写字母,数字,特殊符号 `@#$%^&*`~()-+=` 中任意3项密码"
             },
             {
                 "command": "RegEx.rule65",
-                "title": "amap: ASCII码表中的全部的特殊字符"
+                "title": "$(rocket) amap: ASCII码表中的全部的特殊字符"
             },
             {
                 "command": "RegEx.rule66",
-                "title": "amap: 正整数,不包含0"
+                "title": "$(rocket) amap: 正整数,不包含0"
             },
             {
                 "command": "RegEx.rule67",
-                "title": "amap: 负整数,不包含0"
+                "title": "$(rocket) amap: 负整数,不包含0"
             },
             {
                 "command": "RegEx.rule68",
-                "title": "amap: 整数"
+                "title": "$(rocket) amap: 整数"
             },
             {
                 "command": "RegEx.rule69",
-                "title": "amap: 浮点数"
+                "title": "$(rocket) amap: 浮点数"
             },
             {
                 "command": "RegEx.rule70",
-                "title": "amap: 浮点数(严格)"
+                "title": "$(rocket) amap: 浮点数(严格)"
             },
             {
                 "command": "RegEx.rule71",
-                "title": "amap: 域名(非网址, 不包含协议)"
+                "title": "$(rocket) amap: 域名(非网址, 不包含协议)"
             }
 		]
 	},

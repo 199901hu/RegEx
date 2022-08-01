@@ -20,7 +20,7 @@ function useSearch(context, REGULARS) {
 				vscode.window.showInformationMessage(`已插入正则: ${title}`);
 			} else {
 				// 操作错误时，消息窗口提示
-				vscode.window.showWarningMessage('regular-set: 只有在编辑文本的时候才可以使用!');
+				vscode.window.showWarningMessage('此处不可以使用');
 			}
 		});
 
